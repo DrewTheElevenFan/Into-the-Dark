@@ -1,0 +1,46 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+[application]
+
+config/name="Into the Dark"
+boot_splash/image="res://Into_The_Dark_Bootsplash_Screen.png"
+boot_splash/bg_color=Color( 0.141176, 0.141176, 0.141176, 1 )
+config/icon="res://Into_The_Dark_Icon.png"
+config/macos_native_icon="res://Into_The_Dark_Icon.png"
+config/windows_native_icon="res://Into_The_Dark_Icon.png"
+config/auto_accept_quit=false
+config/quit_on_go_back=false
+
+[display]
+
+window/size/resizable=false
+window/size/test_width=1024
+window/size/test_height=600
+
+[editor_plugins]
+
+enabled=PoolStringArray(  )
+
+[gui]
+
+common/drop_mouse_on_gui_input_disabled=true
+
+[memory]
+
+limits/message_queue/max_size_mb=2048
+
+[physics]
+
+common/enable_pause_aware_picking=true
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"
